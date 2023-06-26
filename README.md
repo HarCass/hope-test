@@ -1,4 +1,4 @@
-# HOPE Internhsip Test
+# HOPE Internship Test
 
 
 ## Theory of React.js
