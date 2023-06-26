@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Mock api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarCass/hope-test.git"
+  },
+  "author": "HarCass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarCass/hope-test/issues"
+  },
+  "homepage": "https://github.com/HarCass/hope-test#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
