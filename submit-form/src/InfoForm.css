@@ -1,6 +1,87 @@
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 5px;
     width: 50vw;
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="tel"] {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+form input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 5px #555;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+button:active {
+    box-shadow: 0 1px #555;
+    transform: translateY(4px);
+}
+
+button:disabled {
+    opacity: 0.6;
+    box-shadow: none;
+}
+
+button:disabled:active {
+    box-shadow: none;
+    transform: translateY(0px);
+}
+
+button:disabled:hover {
+    cursor: default;
+    background-color: #333;
+}
+
+dialog[open] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+dialog button {
+    border: #555 solid 1px;
+}
+
+p {
+    background-color: #571717;
+    border-radius: 3px;
+    padding: 3px;
 }
